@@ -1,36 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formuário</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-    <header>
-      <h1>Formulário de Cadastro</h1>
-    </header>
-
-    <main>
-        <a>s
-
-        </a>
+  <header>
+    <h1>Formulário de Cadastro</h1>
+  </header>
 
 
-      <a href="https://google.com" target="_blank" rel="noopener noreferrer">
-        Google
-      </a>
+  <form action="">
+    <fieldset>
+      <legend>Preencha os dados</legend>
+      <div>
+        <label for="Nome">Nome: </label><input type="text" id="Nome" name="Nome" placeholder="Informe o Nome" />
+        <label for="Data Nascimento">Data de Nascimento: </label><input type="date" id="Data Nascimento"
+          name="Data Nascimento" />
+        <label for="CPF">CPF: </label><input title="CPF inválido." pattern="\d{3}.\d{3}.\d{3}-\d{2}" type="text"
+          id="CPF" name="CPF" placeholder="Informe o CPF" />
+        <label for="Município">Município: </label> <select>
+          <option value="b">Blumenau</option>
+          <option value="i">Indaial</option>
+          <option value="p">Pomerode</option>
+          <option value="l">Lages</option>
+        </select>
+      </div>
 
-      <input type="text" />
 
-      <ol class="lista">
-        <li>Arroz</li>
-        <li>Feijão</li>
-        <li>Batata</li>
-      </ol>
-    </main>
+    </fieldset>
+  </form>
 
-    <footer>
-      <p>2023 | DEVinZucchetti</p>
-    </footer>
+
+
 </body>
+
 </html>
