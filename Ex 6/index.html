@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soeth Viagens</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="page-container">
+      <header>
+        <h1 class="logo-text">Viagens Soeth</h1>
+
+        <nav>
+          <a href="">Destinos</a>
+          <a href="">Pacotes</a>
+          <a href="">Sobre nós</a>
+          <a href="">Contato</a>
+        </nav>
+      </header>
+
+      <main>
+        <ul id="cards-container">
+          <li>
+            <img src="Blumenau.jpg" alt="Blumenau" />
+
+            <h3>Blumenau</h3>
+
+            <div class="card-details">
+              <div class="price">
+                <h4>Preço a partir de</h4>
+                <p><R1>R$ 300,00</R1></p>
+              </div>
+
+              <a href="">Visualizar &gt;&gt;</a>
+            </div>
+          </li>
+
+          <li>
+            <img src="RJ.jpg" alt="Rio de Janeiro" />
+
+            <h3>Rio de Janeiro</h3>
+
+            <div class="card-details">
+              <div class="price">
+                <h4>Preço a partir de</h4>
+                <p><R1>R$ 800,00</R1></p>
+              </div>
+
+              <a href="">Visualizar &gt;&gt;</a>
+            </div>
+          </li>
+
+          <li>
+            <img src="Noronha.jpg" alt="Fernando de Noronha" />
+
+            <h3>Fernando de Noronha</h3>
+
+            <div class="card-details">
+              <div class="price">
+                <h4>Preço a partir de</h4>
+                <p><R1> R$ 1.200,00</R1></p>
+              </div>
+
+              <a href="">Visualizar &gt;&gt;</a>
+            </div>
+          </li>
+        </ul>
+
+        <form action="">
+          <input type="text" name="origem" placeholder="Informe a Origem" />
+          <input type="text" name="destino" placeholder="Informe o Destino" />
+          <div>
+            <label for="id-data-ida">Ida</label>
+            <input
+              type="date"
+              id="id-data-ida"
+              name="data-ida"
+              placeholder="dd-mm-aaaa"
+            />
+          </div>
+          <div>
+            <label for="id-data-volta">Volta</label>
+            <input
+              type="date"
+              name="id-data-volta"
+              name="data-volta"
+              placeholder="dd-mm-aaaa"
+            />
+          </div>
+          <button type="submit">Procurar</button>
+        </form>
+      </main>
+
+      <footer>
+        <p class="logo-text">Viagens Soeth</p>
+
+        <p>
+          &copy; 2023 &middot; Agência de Turismo &middot; Rua José Deeke, N 830, CEP
+          89031-400 &middot; Blumenau - SC
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
